@@ -1,4 +1,4 @@
-package ru.efremovdm.JavaLevel1;
+package ru.efremovdm.JavaLevel1.Lesson3;
 
 import java.util.Random;
 import java.util.Scanner;

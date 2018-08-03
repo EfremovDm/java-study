@@ -1,4 +1,4 @@
-package ru.efremovdm.JavaLevel1;
+package ru.efremovdm.JavaLevel1.Lesson2;
 
 /**
  * Java. Уровень 1. Урок 2.

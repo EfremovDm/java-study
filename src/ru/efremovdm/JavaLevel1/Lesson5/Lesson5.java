@@ -1,4 +1,4 @@
-package ru.efremovdm.JavaLevel1;
+package ru.efremovdm.JavaLevel1.Lesson5;
 
 /**
  * Урок 5. Введение в ООП

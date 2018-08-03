@@ -1,4 +1,4 @@
-package ru.efremovdm.JavaLevel1;
+package ru.efremovdm.JavaLevel1.Lesson1;
 
 import java.lang.Exception;
 
