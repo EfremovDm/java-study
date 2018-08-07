@@ -2,11 +2,11 @@ package ru.efremovdm.JavaLevel1.Lesson6;
 
 public class Cat extends Animal {
 
-    private double runMax = 200;
-    private double jumpMax = 2;
-    private double swimMax = 0;
-
-    Cat() {}
+    Cat() {
+        runMax = 200;
+        jumpMax = 2;
+        swimMax = 0;
+    }
 
     Cat(double run, double jump, double swim) {
         runMax = run;

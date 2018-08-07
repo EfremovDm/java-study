@@ -2,11 +2,11 @@ package ru.efremovdm.JavaLevel1.Lesson6;
 
 public class Dog extends Animal {
 
-    private double runMax = 500;
-    private double jumpMax = 0.5;
-    private double swimMax = 10;
-
-    Dog() {}
+    Dog() {
+        runMax = 500;
+        jumpMax = 0.5;
+        swimMax = 10;
+    }
 
     Dog(double run, double jump, double swim) {
         runMax = run;
