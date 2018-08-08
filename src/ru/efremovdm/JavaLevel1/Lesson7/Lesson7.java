@@ -18,5 +18,24 @@ package ru.efremovdm.JavaLevel1.Lesson7;
  * 6. Добавить в тарелку метод, с помощью которого можно было бы добавлять еду в тарелку
  */
 public class Lesson7 {
+    public static void main(String[] args) {
 
+        Cat[] cats = {
+            new Cat("Васька", 10),
+            new Cat("Мурлок", 15),
+            new Cat("Мурка", 25),
+            new Cat("Тузик", 5),
+            new Cat("Кошак", 1)
+        };
+
+        Dish dish = new Dish(30);
+
+        for (Cat cat : cats) {
+            cat.eat(dish);
+            cat.info();
+        }
+
+        dish.addFood(50);
+        dish.info();
+    }
 }
